@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ZJLToggleDownTableViewExample/ZJLToggleDownTableViewController.m"
-            timestampString = "487444758.706399"
+            timestampString = "487445939.421926"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "113"
-            endingLineNumber = "113"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
             landmarkName = "-headerTap:"
             landmarkType = "5">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ZJLToggleDownTableViewExample/ZJLToggleDownTableViewController.m"
-            timestampString = "487444767.356707"
+            timestampString = "487445939.421926"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "120"
-            endingLineNumber = "120"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
             landmarkName = "-headerTap:"
             landmarkType = "5">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ZJLToggleDownTableViewExample/ZJLToggleDownTableViewController.m"
-            timestampString = "487444795.860106"
+            timestampString = "487445939.421926"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "115"
-            endingLineNumber = "115"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
             landmarkName = "-headerTap:"
             landmarkType = "5">
          </BreakpointContent>

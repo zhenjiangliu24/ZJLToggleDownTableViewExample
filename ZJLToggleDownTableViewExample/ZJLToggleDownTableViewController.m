@@ -7,6 +7,7 @@
 //
 
 #import "ZJLToggleDownTableViewController.h"
+#import "ViewController.h"
 #define ScreenWidth [UIScreen mainScreen].bounds.size.width
 
 @interface ZJLToggleDownTableViewController ()<UITableViewDelegate, UITableViewDataSource>
@@ -104,6 +105,14 @@
     }else{
         return 0;
     }
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    ViewController *vc = (ViewController *)[self.storyboard instantiateViewControllerWithIdentifier:@"vc"];
+    NSArray *detail = [self.sectionDic objectForKey:[self.headerArray objectAtIndex:indexPath.section]];
+    vc.title = [detail objectAtIndex:indexPath.row];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 
