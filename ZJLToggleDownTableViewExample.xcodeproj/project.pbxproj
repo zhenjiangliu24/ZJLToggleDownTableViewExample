@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA34D3051D0D0E1200394196 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA34D3041D0D0E1200394196 /* main.m */; };
+		CA34D3081D0D0E1200394196 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA34D3071D0D0E1200394196 /* AppDelegate.m */; };
+		CA34D30B1D0D0E1200394196 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA34D30A1D0D0E1200394196 /* ViewController.m */; };
+		CA34D30E1D0D0E1200394196 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA34D30C1D0D0E1200394196 /* Main.storyboard */; };
+		CA34D3101D0D0E1200394196 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA34D30F1D0D0E1200394196 /* Assets.xcassets */; };
+		CA34D3131D0D0E1200394196 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA34D3111D0D0E1200394196 /* LaunchScreen.storyboard */; };
+		CA34D31E1D0D0E1200394196 /* ZJLToggleDownTableViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA34D31D1D0D0E1200394196 /* ZJLToggleDownTableViewExampleTests.m */; };
+		CA34D3291D0D0E1200394196 /* ZJLToggleDownTableViewExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA34D3281D0D0E1200394196 /* ZJLToggleDownTableViewExampleUITests.m */; };
+		CA34D33B1D0D107800394196 /* ZJLToggleDownTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA34D33A1D0D107800394196 /* ZJLToggleDownTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA34D31A1D0D0E1200394196 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA34D2F81D0D0E1200394196 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA34D2FF1D0D0E1200394196;
+			remoteInfo = ZJLToggleDownTableViewExample;
+		};
+		CA34D3251D0D0E1200394196 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA34D2F81D0D0E1200394196 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA34D2FF1D0D0E1200394196;
+			remoteInfo = ZJLToggleDownTableViewExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA34D3001D0D0E1200394196 /* ZJLToggleDownTableViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJLToggleDownTableViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA34D3041D0D0E1200394196 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA34D3061D0D0E1200394196 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA34D3071D0D0E1200394196 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA34D3091D0D0E1200394196 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA34D30A1D0D0E1200394196 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA34D30D1D0D0E1200394196 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA34D30F1D0D0E1200394196 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA34D3121D0D0E1200394196 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA34D3141D0D0E1200394196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA34D3191D0D0E1200394196 /* ZJLToggleDownTableViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJLToggleDownTableViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA34D31D1D0D0E1200394196 /* ZJLToggleDownTableViewExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJLToggleDownTableViewExampleTests.m; sourceTree = "<group>"; };
+		CA34D31F1D0D0E1200394196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA34D3241D0D0E1200394196 /* ZJLToggleDownTableViewExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJLToggleDownTableViewExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA34D3281D0D0E1200394196 /* ZJLToggleDownTableViewExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJLToggleDownTableViewExampleUITests.m; sourceTree = "<group>"; };
+		CA34D32A1D0D0E1200394196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA34D3391D0D107800394196 /* ZJLToggleDownTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJLToggleDownTableViewController.h; sourceTree = "<group>"; };
+		CA34D33A1D0D107800394196 /* ZJLToggleDownTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJLToggleDownTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA34D2FD1D0D0E1200394196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA34D3161D0D0E1200394196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA34D3211D0D0E1200394196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA34D2F71D0D0E1200394196 = {
+			isa = PBXGroup;
+			children = (
+				CA34D3021D0D0E1200394196 /* ZJLToggleDownTableViewExample */,
+				CA34D31C1D0D0E1200394196 /* ZJLToggleDownTableViewExampleTests */,
+				CA34D3271D0D0E1200394196 /* ZJLToggleDownTableViewExampleUITests */,
+				CA34D3011D0D0E1200394196 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA34D3011D0D0E1200394196 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA34D3001D0D0E1200394196 /* ZJLToggleDownTableViewExample.app */,
+				CA34D3191D0D0E1200394196 /* ZJLToggleDownTableViewExampleTests.xctest */,
+				CA34D3241D0D0E1200394196 /* ZJLToggleDownTableViewExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA34D3021D0D0E1200394196 /* ZJLToggleDownTableViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				CA34D3061D0D0E1200394196 /* AppDelegate.h */,
+				CA34D3071D0D0E1200394196 /* AppDelegate.m */,
+				CA34D3091D0D0E1200394196 /* ViewController.h */,
+				CA34D30A1D0D0E1200394196 /* ViewController.m */,
+				CA34D30C1D0D0E1200394196 /* Main.storyboard */,
+				CA34D3391D0D107800394196 /* ZJLToggleDownTableViewController.h */,
+				CA34D33A1D0D107800394196 /* ZJLToggleDownTableViewController.m */,
+				CA34D30F1D0D0E1200394196 /* Assets.xcassets */,
+				CA34D3111D0D0E1200394196 /* LaunchScreen.storyboard */,
+				CA34D3141D0D0E1200394196 /* Info.plist */,
+				CA34D3031D0D0E1200394196 /* Supporting Files */,
+			);
+			path = ZJLToggleDownTableViewExample;
+			sourceTree = "<group>";
+		};
+		CA34D3031D0D0E1200394196 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA34D3041D0D0E1200394196 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA34D31C1D0D0E1200394196 /* ZJLToggleDownTableViewExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA34D31D1D0D0E1200394196 /* ZJLToggleDownTableViewExampleTests.m */,
+				CA34D31F1D0D0E1200394196 /* Info.plist */,
+			);
+			path = ZJLToggleDownTableViewExampleTests;
+			sourceTree = "<group>";
+		};
+		CA34D3271D0D0E1200394196 /* ZJLToggleDownTableViewExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA34D3281D0D0E1200394196 /* ZJLToggleDownTableViewExampleUITests.m */,
+				CA34D32A1D0D0E1200394196 /* Info.plist */,
+			);
+			path = ZJLToggleDownTableViewExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA34D2FF1D0D0E1200394196 /* ZJLToggleDownTableViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA34D32D1D0D0E1200394196 /* Build configuration list for PBXNativeTarget "ZJLToggleDownTableViewExample" */;
+			buildPhases = (
+				CA34D2FC1D0D0E1200394196 /* Sources */,
+				CA34D2FD1D0D0E1200394196 /* Frameworks */,
+				CA34D2FE1D0D0E1200394196 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZJLToggleDownTableViewExample;
+			productName = ZJLToggleDownTableViewExample;
+			productReference = CA34D3001D0D0E1200394196 /* ZJLToggleDownTableViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA34D3181D0D0E1200394196 /* ZJLToggleDownTableViewExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA34D3301D0D0E1200394196 /* Build configuration list for PBXNativeTarget "ZJLToggleDownTableViewExampleTests" */;
+			buildPhases = (
+				CA34D3151D0D0E1200394196 /* Sources */,
+				CA34D3161D0D0E1200394196 /* Frameworks */,
+				CA34D3171D0D0E1200394196 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA34D31B1D0D0E1200394196 /* PBXTargetDependency */,
+			);
+			name = ZJLToggleDownTableViewExampleTests;
+			productName = ZJLToggleDownTableViewExampleTests;
+			productReference = CA34D3191D0D0E1200394196 /* ZJLToggleDownTableViewExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA34D3231D0D0E1200394196 /* ZJLToggleDownTableViewExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA34D3331D0D0E1200394196 /* Build configuration list for PBXNativeTarget "ZJLToggleDownTableViewExampleUITests" */;
+			buildPhases = (
+				CA34D3201D0D0E1200394196 /* Sources */,
+				CA34D3211D0D0E1200394196 /* Frameworks */,
+				CA34D3221D0D0E1200394196 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA34D3261D0D0E1200394196 /* PBXTargetDependency */,
+			);
+			name = ZJLToggleDownTableViewExampleUITests;
+			productName = ZJLToggleDownTableViewExampleUITests;
+			productReference = CA34D3241D0D0E1200394196 /* ZJLToggleDownTableViewExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA34D2F81D0D0E1200394196 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ZhongZhongzhong;
+				TargetAttributes = {
+					CA34D2FF1D0D0E1200394196 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = D667J2X7L2;
+					};
+					CA34D3181D0D0E1200394196 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = D667J2X7L2;
+						TestTargetID = CA34D2FF1D0D0E1200394196;
+					};
+					CA34D3231D0D0E1200394196 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = D667J2X7L2;
+						TestTargetID = CA34D2FF1D0D0E1200394196;
+					};
+				};
+			};
+			buildConfigurationList = CA34D2FB1D0D0E1200394196 /* Build configuration list for PBXProject "ZJLToggleDownTableViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA34D2F71D0D0E1200394196;
+			productRefGroup = CA34D3011D0D0E1200394196 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA34D2FF1D0D0E1200394196 /* ZJLToggleDownTableViewExample */,
+				CA34D3181D0D0E1200394196 /* ZJLToggleDownTableViewExampleTests */,
+				CA34D3231D0D0E1200394196 /* ZJLToggleDownTableViewExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA34D2FE1D0D0E1200394196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA34D3131D0D0E1200394196 /* LaunchScreen.storyboard in Resources */,
+				CA34D3101D0D0E1200394196 /* Assets.xcassets in Resources */,
+				CA34D30E1D0D0E1200394196 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA34D3171D0D0E1200394196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA34D3221D0D0E1200394196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA34D2FC1D0D0E1200394196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA34D30B1D0D0E1200394196 /* ViewController.m in Sources */,
+				CA34D3081D0D0E1200394196 /* AppDelegate.m in Sources */,
+				CA34D33B1D0D107800394196 /* ZJLToggleDownTableViewController.m in Sources */,
+				CA34D3051D0D0E1200394196 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA34D3151D0D0E1200394196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA34D31E1D0D0E1200394196 /* ZJLToggleDownTableViewExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA34D3201D0D0E1200394196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA34D3291D0D0E1200394196 /* ZJLToggleDownTableViewExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA34D31B1D0D0E1200394196 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA34D2FF1D0D0E1200394196 /* ZJLToggleDownTableViewExample */;
+			targetProxy = CA34D31A1D0D0E1200394196 /* PBXContainerItemProxy */;
+		};
+		CA34D3261D0D0E1200394196 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA34D2FF1D0D0E1200394196 /* ZJLToggleDownTableViewExample */;
+			targetProxy = CA34D3251D0D0E1200394196 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA34D30C1D0D0E1200394196 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA34D30D1D0D0E1200394196 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA34D3111D0D0E1200394196 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA34D3121D0D0E1200394196 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA34D32B1D0D0E1200394196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA34D32C1D0D0E1200394196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA34D32E1D0D0E1200394196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZJLToggleDownTableViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLToggleDownTableViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA34D32F1D0D0E1200394196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZJLToggleDownTableViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLToggleDownTableViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CA34D3311D0D0E1200394196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZJLToggleDownTableViewExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLToggleDownTableViewExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJLToggleDownTableViewExample.app/ZJLToggleDownTableViewExample";
+			};
+			name = Debug;
+		};
+		CA34D3321D0D0E1200394196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZJLToggleDownTableViewExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLToggleDownTableViewExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJLToggleDownTableViewExample.app/ZJLToggleDownTableViewExample";
+			};
+			name = Release;
+		};
+		CA34D3341D0D0E1200394196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZJLToggleDownTableViewExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLToggleDownTableViewExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJLToggleDownTableViewExample;
+			};
+			name = Debug;
+		};
+		CA34D3351D0D0E1200394196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZJLToggleDownTableViewExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLToggleDownTableViewExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJLToggleDownTableViewExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA34D2FB1D0D0E1200394196 /* Build configuration list for PBXProject "ZJLToggleDownTableViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA34D32B1D0D0E1200394196 /* Debug */,
+				CA34D32C1D0D0E1200394196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA34D32D1D0D0E1200394196 /* Build configuration list for PBXNativeTarget "ZJLToggleDownTableViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA34D32E1D0D0E1200394196 /* Debug */,
+				CA34D32F1D0D0E1200394196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA34D3301D0D0E1200394196 /* Build configuration list for PBXNativeTarget "ZJLToggleDownTableViewExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA34D3311D0D0E1200394196 /* Debug */,
+				CA34D3321D0D0E1200394196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA34D3331D0D0E1200394196 /* Build configuration list for PBXNativeTarget "ZJLToggleDownTableViewExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA34D3341D0D0E1200394196 /* Debug */,
+				CA34D3351D0D0E1200394196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA34D2F81D0D0E1200394196 /* Project object */;
+}
