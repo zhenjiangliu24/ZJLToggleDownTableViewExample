@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--Toggle Down Table View Controller-->
+        <!--custom table view-->
         <scene sceneID="GIl-e9-x3S">
             <objects>
                 <tableViewController id="Rxd-7l-6la" customClass="ZJLToggleDownTableViewController" sceneMemberID="viewController">
@@ -28,7 +28,7 @@
                             <outlet property="delegate" destination="Rxd-7l-6la" id="SWb-eo-viQ"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="TxI-Sk-KvP"/>
+                    <navigationItem key="navigationItem" title="custom table view" id="TxI-Sk-KvP"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZfX-3e-8xu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -169,7 +169,7 @@
     [UIView animateWithDuration:0.3 animations:^{
         imageView.transform = CGAffineTransformMakeRotation(M_PI);
     } completion:^(BOOL finished) {
-        imageView.transform = CGAffineTransformMakeRotation(0);
+        imageView.transform = CGAffineTransformMakeRotation(-M_PI);
         if (block) {
             block();
         }
