@@ -53,7 +53,7 @@
     if ([[self.headerStatusArray objectAtIndex:section] boolValue]) {
         return [[self.sectionDic objectForKey:[self.headerArray objectAtIndex:section]] count];
     }
-    return 1;
+    return 0;
 }
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
@@ -72,8 +72,7 @@
     titleLabel.textColor = [UIColor blackColor];
     [headerView addSubview:titleLabel];
     
-    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(headerTap:)];
-    [headerView addGestureRecognizer:tap];
+    
     
     UIImageView *arrow = [[UIImageView alloc] initWithFrame:CGRectMake(ScreenWidth-50, 10, 30, 30)];
     arrow.image = [UIImage imageNamed:@"arrow"];
